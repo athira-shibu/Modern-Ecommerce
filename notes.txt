@@ -1,0 +1,14 @@
+I faced some issues in pushing the code into github. Because i created a Read.me file. It fixed by
+
+git pull origin main --rebase
+
+Part 1: Set up Multiple Authentication and Admin Dashboard User Interface
+
+didn't get a suggestion to use auth breeze vue with inertia and pestunit
+
+so manually installed all these
+
+composer require laravel/jetstream
+php artisan jetstream:install inertia
+npm install && npm run build
+php artisan migrate
