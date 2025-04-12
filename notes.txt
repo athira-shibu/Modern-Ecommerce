@@ -12,3 +12,6 @@ composer require laravel/jetstream
 php artisan jetstream:install inertia
 npm install && npm run build
 php artisan migrate
+
+
+php artisan migrate:fresh  - to migrate files as fresh.
